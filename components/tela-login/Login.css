@@ -1,0 +1,51 @@
+/* src/components/Login.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  .user-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-input {
+    width: 350px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+  }
+  
+  .login-button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    background-color: #29b6f6;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .register-link {
+    margin-top: 10px;
+    color: #29b6f6;
+    text-decoration: none;
+  }
+  
